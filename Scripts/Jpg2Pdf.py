@@ -59,6 +59,9 @@ for root, dirs, files in os.walk(dir):
 		        print("\n")
 		        print("Converted and downloaded " + file )
 		        print("\n")
+		        quit()
+print("No files in directory " + dir)
+quit()
 
 
 
